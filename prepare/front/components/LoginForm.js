@@ -17,7 +17,7 @@ const LoginForm = () => {
   return (
     <Form>
       <div>
-        <label htmlFor="user-id">아이디</label>
+        <label htmlFor="user-id">아이디를 입력하시오</label>
         <br />
         <Input name="user-id" value={id} onChange={onChangeId} required />
       </div>
